@@ -28,7 +28,7 @@ services:
     - postgresql
     ports:
     - "10050:80"
-    - "10022:22"
+    - "10023:22"
     volumes:
     - gitlab-data:/home/git/data:Z
     environment:
